@@ -1,0 +1,13 @@
+{
+    "presets" :[
+        ["env",{
+            "targets":{
+                "browsers" :[          // we want last 5 versions & internet explorer atleast 8
+                    "last 5 versions",
+                    "ie >=8"
+                ]
+            }
+        }
+        ]
+    ]
+}
